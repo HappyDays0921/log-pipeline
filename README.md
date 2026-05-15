@@ -66,7 +66,7 @@ IDE : IntelliJ, Visual Studio Code
 
 
 ## 실행방법
-	- 본 과제는 Docker와 phpmyadmin을 사용합니다
+	- 본 과제는 Docker를 사용합니다
 	1. cmd화면에서 docker-compose.yml이 있는 위치로 이동해 docker compose build 명령어를 실행합니다
 	2. 이후 docker compose up -d 명령어를 실행합니다.
 	3. 이후 java의 Main.class를 컴파일하여 스크립트를 실행시키고 출력물과 untitled/output에 있는 차트와 비교하여봅니다
