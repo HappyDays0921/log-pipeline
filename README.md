@@ -28,9 +28,9 @@
   
      <img width="352" height="263" alt="LoginLog" src="https://github.com/user-attachments/assets/02fab773-b2a8-4fa0-a4f7-d9fe092d0e2d" />
   
-   - 구매로그 테이블
+   	- 구매로그 테이블
   
-     create table PurchaseLog(
+   	create table PurchaseLog(
     eventType varchar(20) NOT NULL,
     userId varchar(50) NOT NULL,
 	purchaseTime varchar(20) NOT NULL,
