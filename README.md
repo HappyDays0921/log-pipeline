@@ -66,6 +66,10 @@ IDE : IntelliJ, Visual Studio Code
 
 
 ## 실행방법
+1. Docker 설치
+   https://docs.docker.com/desktop/setup/install/windows-install/
+3. 
+
 
 
 ## 스키마 설명
