@@ -26,7 +26,7 @@ public class Main{
     for(int i=0;i<30;i++){
         UserErrorLogArr[i] = Event.UserErrorData(random.nextInt(1,4));
     };
-/*
+
     //db서버에 올리기 위해
     for(String log : LoginLogArr) {
         //System.out.println(log);
@@ -37,7 +37,7 @@ public class Main{
 
     for(String log : UserErrorLogArr)
         SendLog.sendUserErrorLog(log);
-*/
+
     //
     EventCount ev = new EventCount();
     //ev.UserLoginByTime();
