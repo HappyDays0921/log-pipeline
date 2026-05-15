@@ -184,7 +184,9 @@ public class Chart {
         }
 
         //막대그래프 라벨 이름 설정
-        String[] labels = strArr;
+        String[] labels = new String[5];
+        for(int i=0;i<5;i++)
+            labels[i] = strArr[i];
         //막대그래프 수치
         int[] values = new int[5];
         for(int i=0;i<5;i++)
@@ -235,6 +237,9 @@ public class Chart {
             grapic.drawString(String.valueOf(values[i]),
                     startX+i*50,
                     baseY-barHeight-5);
+            grapic.drawString(labels[i],
+                    startX+i*50,
+                    baseY+20);
         }
         //세로축
         grapic.drawLine(80,100,80,600);
