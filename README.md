@@ -20,8 +20,9 @@
 
 	
 
-	- 문제보고로그 테이블
+	
 
+	문제보고로그 테이블
 	create table UserErrorLog(
 	eventType varchar(20) NOT NULL,
     userId varchar(50) NOT NULL,
@@ -30,8 +31,6 @@
 );
 
 <img width="392" height="326" alt="UserErrorLog" src="https://github.com/user-attachments/assets/8f905f42-a010-4b8a-b2cc-ffe0d680301e" />
-
-  
 
 
      
