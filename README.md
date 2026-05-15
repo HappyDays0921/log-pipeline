@@ -18,6 +18,8 @@
      
    - 각 이벤트별 테이블을 작성하고 컬럼으로 로그 내용을 정리하면 조회 및 삽입시 용이하게 만들었습니다.
 
+<img width="352" height="263" alt="LoginLog" src="https://github.com/user-attachments/assets/31e5be51-0984-4573-a68d-35e8c612749c" />
+
 	-로그인로그 테이블
 
 	CREATE TABLE LoginLog(
@@ -25,7 +27,7 @@
     userId varchar(50) NOT NULL,
     loginTime varchar(20) NOT NULL
 );
-<img width="352" height="263" alt="LoginLog" src="https://github.com/user-attachments/assets/31e5be51-0984-4573-a68d-35e8c612749c" />
+
 
 
 	-구매로그 테이블
