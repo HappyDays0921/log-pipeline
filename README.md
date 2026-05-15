@@ -66,9 +66,10 @@ IDE : IntelliJ, Visual Studio Code
 
 
 ## 실행방법
-1. Docker 설치
-   https://docs.docker.com/desktop/setup/install/windows-install/
-3. 
+	- 본 과제는 Docker와 phpmyadmin을 사용합니다
+	1. cmd화면에서 docker-compose.yml이 있는 위치로 이동해 docker compose build 명령어를 실행합니다
+	2. 이후 docker compose up -d 명령어를 실행합니다.
+	3. 
 
 
 
