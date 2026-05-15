@@ -28,7 +28,7 @@
     loginTime varchar(20) NOT NULL
 );
 
-
+<img width="366" height="320" alt="PurchaseLog" src="https://github.com/user-attachments/assets/19f88344-0cd2-44f5-a2c0-824e54f2e27c" />
 
 	-구매로그 테이블
 
@@ -38,8 +38,8 @@
 	purchaseTime varchar(20) NOT NULL,
     purchaseSubject varchar(10) NOT NULL
 );
-<img width="366" height="320" alt="PurchaseLog" src="https://github.com/user-attachments/assets/19f88344-0cd2-44f5-a2c0-824e54f2e27c" />
 
+<img width="392" height="326" alt="UserErrorLog" src="https://github.com/user-attachments/assets/8f905f42-a010-4b8a-b2cc-ffe0d680301e" />
 
 	-문제보고로그 테이블
 
@@ -50,7 +50,7 @@
     errorCode varchar(50) NOT NULL
 );
 
-<img width="392" height="326" alt="UserErrorLog" src="https://github.com/user-attachments/assets/8f905f42-a010-4b8a-b2cc-ffe0d680301e" />
+
 
 
      
