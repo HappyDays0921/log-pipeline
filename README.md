@@ -17,18 +17,19 @@
    - 로그 한줄에 3개 이상의 항목이 있어 MYSQL 데이터베이스를 이용하여 로그를 관리해야한다고 생각했습니다.
      
    - 각 이벤트별 테이블을 작성하고 컬럼으로 로그 내용을 정리하면 조회 및 삽입시 용이하게 만들었습니다.
-  
-   - 로그인로그 테이블
+
+	-로그인로그 테이블
    
-   CREATE TABLE LoginLog(
+	CREATE TABLE LoginLog(
 	eventType varchar(20) NOT NULL,
     userId varchar(50) NOT NULL,
     loginTime varchar(20) NOT NULL
 );
   
      <img width="352" height="263" alt="LoginLog" src="https://github.com/user-attachments/assets/02fab773-b2a8-4fa0-a4f7-d9fe092d0e2d" />
+	 
   
-   	- 구매로그 테이블
+	-구매로그 테이블
   
    	create table PurchaseLog(
     eventType varchar(20) NOT NULL,
