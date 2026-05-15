@@ -18,11 +18,29 @@
      
    - 각 이벤트별 테이블을 작성하고 컬럼으로 로그 내용을 정리하면 조회 및 삽입시 용이하게 만들었습니다.
 
-	
+	-로그인로그 테이블
 
-	
+	CREATE TABLE LoginLog(
+	eventType varchar(20) NOT NULL,
+    userId varchar(50) NOT NULL,
+    loginTime varchar(20) NOT NULL
+);
+<img width="352" height="263" alt="LoginLog" src="https://github.com/user-attachments/assets/31e5be51-0984-4573-a68d-35e8c612749c" />
 
-	문제보고로그 테이블
+
+	-구매로그 테이블
+
+	create table PurchaseLog(
+    eventType varchar(20) NOT NULL,
+    userId varchar(50) NOT NULL,
+	purchaseTime varchar(20) NOT NULL,
+    purchaseSubject varchar(10) NOT NULL
+);
+<img width="366" height="320" alt="PurchaseLog" src="https://github.com/user-attachments/assets/19f88344-0cd2-44f5-a2c0-824e54f2e27c" />
+
+
+	-문제보고로그 테이블
+
 	create table UserErrorLog(
 	eventType varchar(20) NOT NULL,
     userId varchar(50) NOT NULL,
