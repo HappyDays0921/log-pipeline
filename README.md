@@ -84,7 +84,13 @@ IDE : IntelliJ, Visual Studio Code
 
 
 <img width="522" height="67" alt="캡처101" src="https://github.com/user-attachments/assets/79aa991e-771a-4b89-a6bd-490efe265612" />
-- docker 파일로 프로그램 실행시 문제를 해결하는 과정에 있습니다. localhost:8080 -> web
+
+- docker 파일로 프로그램 실행시 문제를 해결하는 과정에 있습니다. localhost:8080 -> web,
+
+
+<img width="1432" height="1861" alt="123123123" src="https://github.com/user-attachments/assets/31ade070-c570-4aac-8b4d-307c8fc60232" />
+
+- docker compose
   
 
 - 데이터를 저장할때 txt파일형태로 로컬에 저장할까 했지만 결국 docker를 쓰기에 mysql 데이터베이스 서버를 사용하기로 하였습니다. 또한 php코드를 같이 작성하면서 데이터가 움직이는 것을 직접 확인해 볼 수 있을거라 생각했던것 같습니다.
