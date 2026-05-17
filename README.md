@@ -88,7 +88,7 @@ IDE : IntelliJ, Visual Studio Code
 - docker 파일로 프로그램 실행시 문제를 해결하는 과정에 있습니다. localhost:8080 -> web,
 
 
-<img width="143" height="186" alt="123123123" src="https://github.com/user-attachments/assets/31ade070-c570-4aac-8b4d-307c8fc60232" />
+<img width="286" height="372" alt="123123123" src="https://github.com/user-attachments/assets/31ade070-c570-4aac-8b4d-307c8fc60232" />
 
 - docker compose
   
