@@ -87,4 +87,11 @@ IDE : IntelliJ, Visual Studio Code
 - Count_UserLoginByTime.php 코드에서 sql을 작성할때 for문의 반복으로 sql where를 사용했는데 group by를 사용했으면 간단하게 표현할 수 있었을거라 생각합니다.
  
 
+## 📌 선택과제.B AWS기초 이해
+1)AWS 아키텍쳐 설계
+
+
+2)설계한 아키텍처에서 가장 고민한 부분
+
+
 
